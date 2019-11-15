@@ -19,14 +19,6 @@
             {% endfor %}
 
         </p>
-        <p>
-            {{form.reg_date.label}} <br>
-            {{form.reg_date()}}<br>
-            {% for error in form.reg_date.errors %}
-                <span style="color: red;">[{{ error }}]</span>
-            {% endfor %}
-
-        </p>
 
 
         <p>{{ form.remember_me() }} {{ form.remember_me.label }}</p>
